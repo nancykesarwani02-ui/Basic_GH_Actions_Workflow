@@ -1,0 +1,19 @@
+name: gh-200-practice
+  on: 
+    push:
+      branches:
+       - main
+    pull_request:
+      branches: 
+        - main
+
+jobs: 
+  print-you-did-well:
+    runs-on: ubuntu-latest
+  
+
+    steps:
+      -name: print-message
+       run: echo "YOU DID VERY WELL !"
+
+    

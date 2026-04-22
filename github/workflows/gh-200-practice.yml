@@ -1,5 +1,8 @@
 name: gh-200-practice
   on: 
+    push:
+      branches:
+       - main
     pull_request:
       branches: 
         - main

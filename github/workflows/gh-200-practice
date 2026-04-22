@@ -1,13 +1,16 @@
 name: gh-200-practice
-  on: commit
-    branch: main
+  on: 
+    push:
+      branches: 
+        -main
 
-jobs: print-you-did-well
-  runs on: ubuntu
+jobs: 
+  print-you-did-well:
+    runs-on: ubuntu-latest
   
 
-  steps:
-    -name: print-message
-    run: echo YOU DID WELL !
+    steps:
+      -name: print-message
+       run: echo "YOU DID WELL !"
 
     

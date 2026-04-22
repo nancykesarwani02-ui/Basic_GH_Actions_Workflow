@@ -1,0 +1,13 @@
+name: gh-200-practice
+  on: commit
+    branch: main
+
+jobs: print-you-did-well
+  runs on: ubuntu
+  
+
+  steps:
+    -name: print-message
+    run: echo YOU DID WELL !
+
+    

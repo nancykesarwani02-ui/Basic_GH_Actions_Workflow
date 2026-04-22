@@ -2,7 +2,7 @@ name: gh-200-practice
   on: 
     pull_request:
       branches: 
-        -main
+        - main
 
 jobs: 
   print-you-did-well:

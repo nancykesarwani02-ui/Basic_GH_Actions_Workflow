@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name: print-message
-       run: echo "YOU DID VERY WELL !"
+       run: echo "YOU DID VERY WELL!"
 
     
